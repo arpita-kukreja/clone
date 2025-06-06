@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Listen the song you want</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify"> <span>Spotify</span> </li>
+            <li>Home</li>
+            <li>About</li>
+            <li><input type="text" id="searchInput" placeholder="What do you want to listen"></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Best songs to hear-No Copyright Sounds</h1>
+        <div class="songList"></div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+             
+             <i class="fa-3x fa-solid fa-forward-step"></i>
+             <i class="fa-3x fa-regular fa-circle-play"></i>
+             <i class="fa-3x fa-solid fa-backward-step"></i>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/9a2b6c214f.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
